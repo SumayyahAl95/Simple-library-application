@@ -1,0 +1,77 @@
+ISBN: 978-0321563842
+Title: The C++ programming language
+Authors: Bjarne Stroustrup, 
+Subjects: programming, computer science, 
+Edition: 4
+Year: 2013
+Number of copies: 4
+Copy 1: loaned
+Copy 2: loaned
+Copy 3: loaned
+Copy 4: in library use only
+================================================
+ISBN: 978-1118063330
+Title: Operating systems concepts
+Authors: Abraham Silberschatz, Peter Galvin, Greg Gagne, 
+Subjects: operating systems, computer science, 
+Edition: 9
+Year: 2012
+Number of copies: 2
+Copy 1: available
+Copy 2: in library use only
+================================================
+ISBN: 978-0132316811
+Title: Introduction to the design and analysis of algorithms
+Authors: Anany Levitin, 
+Subjects: algorithms, data structures, computer science, 
+Edition: 3
+Year: 2011
+Number of copies: 5
+Copy 1: available
+Copy 2: loaned
+Copy 3: available
+Copy 4: available
+Copy 5: in library use only
+================================================
+ISBN: 978-8131525296
+Title: Introduction to the theory of computation
+Authors: Micheal Sipser, 
+Subjects: theory of computation, computer science, 
+Edition: 3
+Year: 2012
+Number of copies: 2
+Copy 1: loaned
+Copy 2: in library use only
+================================================
+ISBN: 123-456
+Title: Hello World !
+Authors: Author 1, Author 2, 
+Subjects: Topic 1, Topic 2, 
+Edition: 3
+Year: 2014
+Number of copies: 3
+Copy 1: available
+Copy 2: loaned
+Copy 3: in library use only
+================================================
+ISBN: 123123123
+Title: Programming
+Authors: Mike, Jalal, 
+Subjects: Math, CS, 
+Edition: 3
+Year: 2019
+Number of copies: 2
+Copy 1: loaned
+Copy 2: available
+================================================
+ISBN: 3214
+Title: Hello World
+Authors: Ahmed, Muhammod, 
+Subjects: CS, Programming, Code, 
+Edition: 2
+Year: 2013
+Number of copies: 3
+Copy 1: available
+Copy 2: available
+Copy 3: available
+================================================
