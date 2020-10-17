@@ -1,0 +1,45 @@
+You are to develop a library management console application to be used by a librarian. The librarian should record for each book in the library the following information:
+ The ISBN number
+ The title
+ A list of up to five authors
+ A list of up to five subject headings
+ The edition
+ The year of publication
+ Number of copies
+ The availability status of each hard copy: in-library use only, available, loaned
+
+Then, at a patron’s request, the librarian should be able to:
+ search for a books relative to a certain subject
+ loan a hardcopy to the patron if any is available
+ return a loaned book
+
+The application should be structured following these steps:
+a) Design a data type copyAvail to designate the availability status of a book copy
+
+b) Design a data type book to store the information listed above for one book/title
+
+c) Write a function getBookInfo to get one book’s information from the librarian and fill up the
+struct that you designed. No error checking for the data entered by the user is required. The function should produce the
+following interface where “ISBN: ”, “Title: “, “author 1: “, ... are prompts.
+
+d) Write a function displayBookInfo to print a book’s information to the screen. 
+Note that author names as well as subjects are written to the same line, separated by commas (trailing comma allowed) 
+Write a function writeBookInfo to write a book’s information to a file given a (already open) file stream and the book struct as parameters.
+The function writes the book information in the same format used for displaying with and additional line separating the current entry from the next.
+
+f) Write a function readBookInfo to read a book’s information from a file, written in the same above format, given a file stream and the book struct 
+as parameters. Values of the string attributes of the book struct should not contain any leading or trailing spaces or commas. For instance, the author
+name should be “Abraham Silberschatz” and not “ Abraham Silberschatz,” .
+
+g) Write a main function where you use an array that can store the data of up to 1000 books. The array is populated with book data already stored in a 
+file or (eventually) with new ones added by the librarian. Thus, when the application starts, it should read the content of a file named “records.txt” 
+to partially (or fully depending on how many records the file contains) populate the array, by using the function implemented in f). A sample “record.txt” 
+file is attached. Then, the application repeatedly offers the librarian the following menu (see sample run below):
+ Enter the data of a new book (by using the function implemented in c))
+ Search for books related to a certain topic and display their information to the screen
+(by using the function implemented in d))
+ Loan a book given its ISBN number.
+ Return a book given its ISBN number
+ Quit (stop the application). During execution, since some new books might have been
+added and some existing ones might have been loaned or returned, the application should update the “records.txt” 
+file by fully rewriting the array content to it before quitting the application and that using the function implemented in e).
